@@ -19,7 +19,7 @@ const arr = [0, 4, 10, 12, 20]
 for (let i = 10; i > -1; i--) {
   if (i == 0) {
     console.log(0, "\nBLAST OFF")
-    return
+    break
   }
   console.log(i)
 }
